@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
+    name: "Елена Соколова",
+    role: "Директор сети «Книжный мир», 12 магазинов",
     avatar: "/professional-woman-scientist.png",
     content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
+      "Раньше мы тратили два дня на подготовку отчётов для поставщиков. Теперь — 15 минут. Продажи выросли на 23% благодаря точным закупкам.",
   },
   {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Андрей Климов",
+    role: "Коммерческий директор, издательство «Страница»",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Наконец видим реальную картину по каждой торговой точке. Аналитика помогла нам пересмотреть ассортимент и сократить неликвиды на 40%.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Мария Петрова",
+    role: "Владелец магазина «Читай-город», Екатеринбург",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Простой интерфейс, понятные графики. Даже без опыта в аналитике сразу понимаешь, что продаётся, а что лежит мёртвым грузом.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют книготорговцы</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Что говорят владельцы и руководители книжных магазинов о нашей платформе
           </p>
         </div>
 

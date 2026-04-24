@@ -8,10 +8,10 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <h2 className="font-orbitron text-2xl font-bold text-white mb-4">
-              Synapse<span className="text-red-500">AI</span>
+              Book<span className="text-red-500">Analytics</span>
             </h2>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
-              Продвигаем будущее нейросвязи с передовыми технологиями интерфейса мозг-компьютер.
+              Платформа визуализации статистики для книжных магазинов и издательств. Принимайте решения на основе данных, а не интуиции.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
@@ -35,10 +35,10 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#technology"
+                  href="#features"
                   className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
                 >
-                  Технологии
+                  Возможности
                 </a>
               </li>
               <li>
@@ -46,15 +46,7 @@ export function Footer() {
                   href="#applications"
                   className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
                 >
-                  Применения
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#safety"
-                  className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
-                >
-                  Безопасность
+                  Как это работает
                 </a>
               </li>
               <li>
@@ -79,12 +71,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Карьера
-                </a>
-              </li>
-              <li>
-                <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Пресса
+                  Блог
                 </a>
               </li>
               <li>
@@ -99,7 +86,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-red-500/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="font-space-mono text-gray-400 text-sm">2025 SynapseAI. Все права защищены.</p>
+            <p className="font-space-mono text-gray-400 text-sm">© 2026 BookAnalytics. Все права защищены.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a
                 href="#"
@@ -112,12 +99,6 @@ export function Footer() {
                 className="font-space-mono text-gray-400 hover:text-red-500 text-sm transition-colors duration-200"
               >
                 Условия использования
-              </a>
-              <a
-                href="#"
-                className="font-space-mono text-gray-400 hover:text-red-500 text-sm transition-colors duration-200"
-              >
-                Cookie-политика
               </a>
             </div>
           </div>
